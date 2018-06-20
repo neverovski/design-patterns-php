@@ -1,6 +1,6 @@
 # Design patterns PHP
 
-### Running test suite
+### Running test
 
 ```bash
 $ ./vendor/bin/phpunit
