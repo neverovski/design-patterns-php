@@ -16,15 +16,3 @@ class Client
         $social->createRepository("Test repository");
     }
 }
-
-print("Test GitHub:\n");
-
-Client::client(new GitHub("gitHubTest", "test"));
-
-print("\n");
-
-print("Test BitBucket:\n");
-
-Client::client(new BitBucket("BitBucket", "test"));
-
-print("\n");

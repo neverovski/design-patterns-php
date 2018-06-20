@@ -1,5 +1,11 @@
 # Design patterns PHP
 
+### Running test suite
+
+```bash
+$ ./vendor/bin/phpunit
+```
+
 Types of design patterns
 -----------------
 
