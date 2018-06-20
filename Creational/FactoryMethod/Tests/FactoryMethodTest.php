@@ -1,6 +1,6 @@
 <?php
 
-namespace PatternsPHP\Creational\FactoryMethod\Test;
+namespace PatternsPHP\Creational\FactoryMethod\Tests;
 
 use PatternsPHP\Creational\FactoryMethod\Client;
 use PatternsPHP\Creational\FactoryMethod\GitHub;
@@ -18,7 +18,7 @@ class FactoryMethodTest extends TestCase
      */
     public function testCanCreateClient()
     {
-        print("Test GitHub:\n");
+        print("\nTest GitHub:\n");
         Client::client(new GitHub("gitHubTest", "test"));
         print("\n");
 
