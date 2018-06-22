@@ -1,7 +1,12 @@
 <?php
 
-namespace PatternsPHP\Creational\AbstractFactory;
+namespace PatternsPHP\Creational\AbstractFactory\Factories;
 
+use PatternsPHP\Creational\AbstractFactory\Interfaces\TemplateFactory;
+use PatternsPHP\Creational\AbstractFactory\Interfaces\BlockTemplate;
+use PatternsPHP\Creational\AbstractFactory\Interfaces\SectionTemplate;
+use PatternsPHP\Creational\AbstractFactory\Templates\TwigBlockTemplate;
+use PatternsPHP\Creational\AbstractFactory\Templates\TwiSectionTemplate;
 
 /**
  * Class TwigTemplateFactory

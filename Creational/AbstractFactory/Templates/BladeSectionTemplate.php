@@ -1,13 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dmitry
- * Date: 22.06.18
- * Time: 22:48
- */
 
-namespace PatternsPHP\Creational\AbstractFactory;
+namespace PatternsPHP\Creational\AbstractFactory\Templates;
 
+use PatternsPHP\Creational\AbstractFactory\Interfaces\BlockTemplate;
+use PatternsPHP\Creational\AbstractFactory\Interfaces\SectionTemplate;
 
 /**
  * Class BladeSectionTemplate

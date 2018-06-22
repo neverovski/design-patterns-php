@@ -1,6 +1,6 @@
 <?php
 
-namespace PatternsPHP\Creational\AbstractFactory;
+namespace PatternsPHP\Creational\AbstractFactory\Interfaces;
 
 
 /**
