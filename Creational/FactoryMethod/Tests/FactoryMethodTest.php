@@ -3,8 +3,8 @@
 namespace PatternsPHP\Creational\FactoryMethod\Tests;
 
 use PatternsPHP\Creational\FactoryMethod\Client;
-use PatternsPHP\Creational\FactoryMethod\GitHub;
-use PatternsPHP\Creational\FactoryMethod\BitBucket;
+use PatternsPHP\Creational\FactoryMethod\Social\GitHub;
+use PatternsPHP\Creational\FactoryMethod\Social\BitBucket;
 use PHPUnit\Framework\TestCase;
 
 /**

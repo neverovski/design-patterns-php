@@ -1,6 +1,9 @@
 <?php
 
-namespace PatternsPHP\Creational\FactoryMethod;
+namespace PatternsPHP\Creational\FactoryMethod\Repository;
+
+use PatternsPHP\Creational\FactoryMethod\Interfaces\ISocialNetwork;
+use PatternsPHP\Creational\FactoryMethod\Social\BitBucket;
 
 /**
  * Class BitBucketRepository

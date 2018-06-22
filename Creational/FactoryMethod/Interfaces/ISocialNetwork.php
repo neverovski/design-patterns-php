@@ -1,6 +1,6 @@
 <?php
 
-namespace PatternsPHP\Creational\FactoryMethod;
+namespace PatternsPHP\Creational\FactoryMethod\Interfaces;
 
 /**
  * Interface ISocialNetwork

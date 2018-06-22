@@ -1,6 +1,8 @@
 <?php
 
-namespace PatternsPHP\Creational\FactoryMethod;
+namespace PatternsPHP\Creational\FactoryMethod\Repository;
+
+use PatternsPHP\Creational\FactoryMethod\Interfaces\ISocialNetwork;
 
 /**
  * Class Social
