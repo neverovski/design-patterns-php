@@ -20,6 +20,10 @@ In plain words
 > These patterns are responsible for the convenient and safe creation of new objects or even entire families of objects.
 
  * [Factory Method](#-factory-method)
+ * [Abstract Factory]
+ * [Builder]
+ * [Prototype]
+ * [Singleton]
 
  Factory Method
 --------------
