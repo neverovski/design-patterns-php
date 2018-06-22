@@ -26,7 +26,7 @@ interface ISocialNetwork
      * Create group
      *
      * @param string $repository
-     * @return mixed
+     * @return string
      */
-    public function createRepository(string $repository);
+    public function createRepository(string $repository): string;
 }

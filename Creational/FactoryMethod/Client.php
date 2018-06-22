@@ -12,9 +12,10 @@ class Client
 {
     /**
      * @param ISocialNetwork $social
+     * @return string
      */
-    public static function client(ISocialNetwork $social)
+    public static function client(ISocialNetwork $social): string
     {
-        $social->createRepository("Test repository");
+        return $social->createRepository("Test repository");
     }
 }

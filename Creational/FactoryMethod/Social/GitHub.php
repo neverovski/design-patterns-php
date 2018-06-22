@@ -55,10 +55,10 @@ class GitHub implements ISocialNetwork
      * Create group
      *
      * @param string $repository
-     * @return mixed
+     * @return string
      */
-    public function createRepository(string $repository): void
+    public function createRepository(string $repository): string
     {
-        print("Send request to create a repository in GitHub.\n");
+        return "Send request to create a repository in GitHub.";
     }
 }

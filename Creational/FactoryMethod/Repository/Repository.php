@@ -13,19 +13,22 @@ abstract class Repository
     /**
      * The actual factory method.
      */
-    public abstract function getSocialNetwork(): ISocialNetwork;
+    protected abstract function getSocialNetwork(): ISocialNetwork;
 
     /**
      * When the factory method is used inside the Creator's business logic
      *
      * @param string $repository
+     * @return string
      */
-    public function repository(string $repository): void
+    protected function repository(string $repository): string
     {
         // Call the factory method to create a object
         $network = $this->getSocialNetwork();
         $network->logIn();
-        $network->createRepository($repository);
+        $rep = $network->createRepository($repository);
         $network->logout();
+
+        return $rep;
     }
 }

@@ -14,15 +14,24 @@ use PHPUnit\Framework\TestCase;
 class FactoryMethodTest extends TestCase
 {
     /**
-     * Test client
+     * Test GitHub
      */
-    public function testCanCreateClient()
+    public function testGitHubClient()
     {
-        print("\nTest GitHub:\n");
-        Client::client(new GitHub("gitHubTest", "test"));
-        print("\n");
+        $test = Client::client(new GitHub("gitHubTest", "test"));
+        $this->assertEquals($test, "Send request to create a repository in GitHub.");
 
-        print("Test BitBucket:\n");
-        Client::client(new BitBucket("BitBucket", "test"));
+        print("Test GitHub: SUCCESSFUL \n");
+    }
+
+    /**
+     * Test BitBucket
+     */
+    public function testBitBucketClient()
+    {
+        $test = Client::client(new BitBucket("BitBucket", "test"));
+        $this->assertEquals($test, "Send request to create a repository in BitBucket.");
+
+        print("Test BitBucket: SUCCESSFUL \n");
     }
 }

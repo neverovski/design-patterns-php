@@ -35,7 +35,7 @@ class GitHubRepository extends Repository
     /**
      * The actual factory method.
      */
-    public function getSocialNetwork(): ISocialNetwork
+    protected function getSocialNetwork(): ISocialNetwork
     {
         return new GitHub($this->login, $this->password);
     }

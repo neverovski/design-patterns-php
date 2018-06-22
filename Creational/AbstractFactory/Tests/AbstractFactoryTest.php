@@ -19,7 +19,7 @@ class AbstractFactoryTest extends TestCase
     public function testTwigCreateClient()
     {
         $this->assertEquals('BlockTemplate - Twig block', Client::client(new TwigTemplateFactory()));
-        print("Test Twig factory: SUCCESSFUL \n\n");
+        print("Test Twig factory: SUCCESSFUL \n");
     }
 
     /**
@@ -29,6 +29,6 @@ class AbstractFactoryTest extends TestCase
     {
 
         $this->assertEquals('BlockTemplate - Blade block', Client::client(new BladeTemplateFactory()));
-        print("Test Blade factory: SUCCESSFUL \n\n");
+        print("Test Blade factory: SUCCESSFUL \n");
     }
 }
