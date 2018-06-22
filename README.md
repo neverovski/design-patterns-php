@@ -19,14 +19,8 @@ Creational Design Patterns
 In plain words
 > These patterns are responsible for the convenient and safe creation of new objects or even entire families of objects.
 
- * [Factory Method](#-factory-method)
- * [Abstract Factory]
+ * [Factory Method](Creational/FactoryMethod)
+ * [Abstract Factory](Creational/AbstractFactory)
  * [Builder]
  * [Prototype]
  * [Singleton]
-
- Factory Method
---------------
-
-In plain words
-> It provides a way to delegate the instantiation logic to child classes.
