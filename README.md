@@ -21,6 +21,6 @@ In plain words
 
  * [Factory Method](Creational/FactoryMethod)
  * [Abstract Factory](Creational/AbstractFactory)
- * [Builder]
+ * [Builder](Creational/Builder)
  * [Prototype]
  * [Singleton]
