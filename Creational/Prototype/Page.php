@@ -20,7 +20,7 @@ class Page
     private $text;
 
     /**
-     * @var string
+     * @var Author
      */
     private $author;
 
@@ -28,9 +28,9 @@ class Page
      * Page constructor.
      * @param string $context
      * @param string $text
-     * @param string $author
+     * @param Author $author
      */
-    public function __construct(string $context, string $text, string $author)
+    public function __construct(string $context, string $text, Author $author)
     {
         $this->context = $context;
         $this->text = $text;
