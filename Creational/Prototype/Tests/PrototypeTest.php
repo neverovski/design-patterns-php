@@ -16,5 +16,4 @@ class PrototypeTest extends TestCase
 
         print("Test Prototype: SUCCESSFUL \n");
     }
-
 }
