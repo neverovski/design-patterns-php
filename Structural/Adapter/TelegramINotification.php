@@ -2,13 +2,13 @@
 
 namespace PatternsPHP\Structural\Adapter;
 
-use PatternsPHP\Structural\Adapter\Interfaces\Notification;
+use PatternsPHP\Structural\Adapter\Interfaces\INotification;
 
 /**
  * Class TelegramNotification
  * @package PatternsPHP\Structural\Adapter
  */
-class TelegramNotification implements Notification
+class TelegramINotification implements INotification
 {
     /**
      * @var TelegramApi

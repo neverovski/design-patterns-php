@@ -6,7 +6,7 @@ namespace PatternsPHP\Structural\Adapter\Interfaces;
  * Interface Notification
  * @package PatternsPHP\Structural\Adapter\Interfaces
  */
-interface Notification
+interface INotification
 {
     /**
      * @param string $subject

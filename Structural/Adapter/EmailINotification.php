@@ -2,13 +2,13 @@
 
 namespace PatternsPHP\Structural\Adapter;
 
-use PatternsPHP\Structural\Adapter\Interfaces\Notification;
+use PatternsPHP\Structural\Adapter\Interfaces\INotification;
 
 /**
  * Class EmailNotification
  * @package PatternsPHP\Structural\Adapter
  */
-class EmailNotification implements Notification
+class EmailINotification implements INotification
 {
     /**
      * @var string

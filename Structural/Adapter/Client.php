@@ -13,7 +13,7 @@ class Client
      */
     public static function client(): string
     {
-        $notification = new EmailNotification("test@test.com");
+        $notification = new EmailINotification("test@test.com");
         $client = $notification->send("Test", "test");
         return $client;
     }

@@ -29,7 +29,7 @@ In plain words
  ==========================
  
   * [Adapter](Structural/Adapter)
-  * Bridge
+  * [Bridge](Structural/Bridge)
   * Composite
   * Decorator
   * Facade
