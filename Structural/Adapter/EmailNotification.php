@@ -8,7 +8,7 @@ use PatternsPHP\Structural\Adapter\Interfaces\INotification;
  * Class EmailNotification
  * @package PatternsPHP\Structural\Adapter
  */
-class EmailINotification implements INotification
+class EmailNotification implements INotification
 {
     /**
      * @var string
@@ -31,7 +31,7 @@ class EmailINotification implements INotification
      */
     public function send(string $subject, string $body): string
     {
-        mail($this->email, $subject, $body);
-        return 'Message sent successfully';
+        // mail($this->email, $subject, $body);
+        return "Message sent successfully. SUBJECT - $subject. BODY - $body";
     }
 }

@@ -2,6 +2,8 @@
 
 namespace PatternsPHP\Structural\Adapter;
 
+use PatternsPHP\Structural\Adapter\Interfaces\INotification;
+
 /**
  * Class Client
  * @package PatternsPHP\Structural\Adapter
@@ -9,12 +11,11 @@ namespace PatternsPHP\Structural\Adapter;
 class Client
 {
     /**
+     * @param INotification $notification
      * @return string
      */
-    public static function client(): string
+    public static function client(INotification $notification): string
     {
-        $notification = new EmailINotification("test@test.com");
-        $client = $notification->send("Test", "test");
-        return $client;
+        return $notification->send("subject TEST", "body TEST");
     }
 }

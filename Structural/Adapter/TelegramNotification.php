@@ -8,7 +8,7 @@ use PatternsPHP\Structural\Adapter\Interfaces\INotification;
  * Class TelegramNotification
  * @package PatternsPHP\Structural\Adapter
  */
-class TelegramINotification implements INotification
+class TelegramNotification implements INotification
 {
     /**
      * @var TelegramApi
@@ -17,11 +17,11 @@ class TelegramINotification implements INotification
 
     /**
      * TelegramNotification constructor.
-     * @param TelegramApi $slack
+     * @param TelegramApi $telegram
      */
-    public function __construct(TelegramApi $slack)
+    public function __construct(TelegramApi $telegram)
     {
-        $this->telegram = $slack;
+        $this->telegram = $telegram;
     }
 
     /**
