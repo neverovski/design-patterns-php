@@ -27,7 +27,7 @@ class JsonRenderer implements IRenderer
      */
     public function renderURL(string $url, string $name): string
     {
-        return '"link": {"href": "' . $url . '", "title": "' . $name . '""}';
+        return '"link": {"href": "' . $url . '", "title": "' . $name . '"}';
     }
 
     /**
