@@ -31,7 +31,7 @@ In plain words
   * [Adapter](Structural/Adapter)
   * [Bridge](Structural/Bridge)
   * [Composite](Structural/Composite)
-  * Decorator
+  * [Decorator](Structural/Decorator)
   * Facade
   * Flyweight
   * Proxy
