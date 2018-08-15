@@ -25,27 +25,27 @@ In plain words
  * [Prototype](Creational/Prototype)
  * [Singleton](Creational/Singleton)
  
- Structural Design Patterns
- ==========================
- 
-  * [Adapter](Structural/Adapter)
-  * [Bridge](Structural/Bridge)
-  * [Composite](Structural/Composite)
-  * [Decorator](Structural/Decorator)
-  * Facade
-  * Flyweight
-  * Proxy
+Structural Design Patterns
+==========================
+
+ * [Adapter](Structural/Adapter)
+ * [Bridge](Structural/Bridge)
+ * [Composite](Structural/Composite)
+ * [Decorator](Structural/Decorator)
+ * [Facade](Structural/Facade)
+ * Flyweight
+ * Proxy
   
-   Behavioral Design Patterns
-   ==========================
-   
-    * CoR, Chain of Command, Chain of Responsibility
-    * Action, Command
-    * Iterator
-    * Intermediary, Controller, Mediator
-    * Memento
-    * Observer
-    * State
-    * Strategy
-    * Template Method
-    * Visitor
+Behavioral Design Patterns
+==========================
+
+ * CoR, Chain of Command, Chain of Responsibility
+ * Action, Command
+ * Iterator
+ * Intermediary, Controller, Mediator
+ * Memento
+ * Observer
+ * State
+ * Strategy
+ * Template Method
+ * Visitor
